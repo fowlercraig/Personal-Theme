@@ -1,3 +1,6 @@
+/* @override 
+	http://localhost:8888/fowlercraig/wp-content/themes/gridded/stylesheets/layout.css */
+
 body {
    line-height: 1.4;
    color: #333;
@@ -14,8 +17,8 @@ body {
    margin-right: 10px;
 }
 
-.item {
-   padding: 20px;
+.item .wrapper {
+  padding: 10px 0;
 }
 
 .item img {
@@ -30,6 +33,6 @@ article .content {
 }
 
 .gallery .item {
-   width: 25%;
-   float: left;
+  border-bottom: 1px solid #eee;
 }
+

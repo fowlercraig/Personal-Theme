@@ -24,7 +24,7 @@
 <?php wp_head(); ?>
 
 <header id="header" class="frame">
-<nav class="bit-1 item center">
+<nav>
    <h1 class="bit-4"><a href="<?php bloginfo( 'wpurl' ) ?>"><?php bloginfo( 'name' ) ?></a></h1>
    <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container_class' => 'menu bit-75',)); ?>
    

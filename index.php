@@ -7,9 +7,8 @@
    <?php $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1; // setup pagination
    
    $the_query = new WP_Query( array( 
-   'post_type'			=> 'page',
-   'paged'				=> $paged,
-   'post_parent'     => 38,
+   'post_type'      => array( 'post', 'page'),
+   'paged'				  => $paged,
    'posts_per_page'	=> 20) 
    ); ?>
    
