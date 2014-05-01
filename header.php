@@ -5,12 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 
-<!-- Website
----- Designed
----- By
----- WeAreGiants.
----- wearegiants.com
--->
+<!-- Website Designed By WeAreGiants. wearegiants.com -->
 
 <meta charset="utf-8">
 <title><?php wp_title(' | ', true, 'right'); ?></title>
